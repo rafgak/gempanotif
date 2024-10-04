@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Notifikasi Gempa BMKG</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Info Gempa BMKG</h1>
+    <div id="warning" class="hidden">⚠️ Peringatan: Gempa Besar Terdeteksi!</div>
+    <div id="earthquake-data">
+      <p><strong>Magnitudo:</strong> <span id="magnitude">-</span></p>
+      <p><strong>Lokasi:</strong> <span id="location">-</span></p>
+      <p><strong>Waktu:</strong> <span id="time">-</span></p>
+      <p><strong>Kedalaman:</strong> <span id="depth">-</span></p>
+      <p><strong>Koordinat:</strong> <span id="coordinates">-</span></p>
+    </div>
+    <div id="shakemap">
+      <img id="shakemap-image" src="" alt="Shakemap" />
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
